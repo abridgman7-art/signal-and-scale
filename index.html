@@ -31,10 +31,10 @@
     <nav class="nav" aria-label="Primary">
       <ul>
         <li><a href="#services">Services</a></li>
-        <li><a href="#industries">Industries</a></li>
+        <li><a href="#calculator">Calculator</a></li>
         <li><a href="#work">Work</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#blog">Blog</a></li>
       </ul>
     </nav>
 
@@ -56,7 +56,7 @@
             Applying <strong>AI-powered marketing automation</strong> to help small businesses and SMEs capture demand, grow revenue, and win online.
           </p>
           <div class="hero__ctas">
-            <a class="link-arrow" href="#work">View Our Work <span aria-hidden="true">→</span></a>
+            <a class="link-arrow" href="#calculator">Try the Growth Calculator <span aria-hidden="true">→</span></a>
             <a class="btn btn--ghost" href="#contact">Book a Free Audit</a>
           </div>
         </div>
@@ -101,59 +101,223 @@
       </div>
     </section>
 
-    <section class="services" id="services">
+    <section class="services reveal" id="services">
       <div class="container">
         <p class="eyebrow eyebrow--light">What We Do</p>
         <h2>Marketing, automated end to end.</h2>
         <p class="section-lede">
-          We plug AI into every stage of your funnel — so your team stops doing busywork and starts compounding growth.
+          Click any service to explore. We plug AI into every stage of your funnel — so your team stops doing busywork and starts compounding growth.
         </p>
 
-        <div class="grid services__grid">
-          <article class="feature">
-            <div class="feature__icon" aria-hidden="true">◆</div>
-            <h3>AI Paid Media</h3>
-            <p>Self-optimizing ad campaigns across Google, Meta, LinkedIn, and TikTok — with creative generated and tested on autopilot.</p>
-          </article>
-          <article class="feature">
-            <div class="feature__icon" aria-hidden="true">◇</div>
-            <h3>SEO &amp; Content Engine</h3>
-            <p>Topic research, briefs, drafts, and internal linking handled by AI and reviewed by experts. Rank faster, write less.</p>
-          </article>
-          <article class="feature">
-            <div class="feature__icon" aria-hidden="true">◈</div>
-            <h3>Lifecycle &amp; Email</h3>
-            <p>Segmented flows, behavior-based triggers, and AI-personalized sends that turn leads into loyal customers.</p>
-          </article>
-          <article class="feature">
-            <div class="feature__icon" aria-hidden="true">◉</div>
-            <h3>Landing Page CRO</h3>
-            <p>High-intent landing pages built, tested, and iterated with AI copy and design — so more clicks actually convert.</p>
-          </article>
-          <article class="feature">
-            <div class="feature__icon" aria-hidden="true">◎</div>
-            <h3>Analytics &amp; Attribution</h3>
-            <p>One dashboard. Clear signal. Know which channels drive real pipeline and which are just spending your budget.</p>
-          </article>
-          <article class="feature">
-            <div class="feature__icon" aria-hidden="true">◐</div>
-            <h3>Fractional CMO</h3>
-            <p>A senior strategist in your corner — setting the roadmap, running the agency, and making AI actually ship.</p>
-          </article>
+        <div class="tabs" role="region" aria-label="Services detail">
+          <div class="tabs__list" role="tablist" aria-orientation="vertical">
+            <button class="tab" role="tab" aria-selected="true"  data-tab="paid">
+              <span class="tab__icon" aria-hidden="true">◆</span>
+              <span class="tab__label">AI Paid Media</span>
+              <span class="tab__arrow" aria-hidden="true">→</span>
+            </button>
+            <button class="tab" role="tab" aria-selected="false" data-tab="seo">
+              <span class="tab__icon" aria-hidden="true">◇</span>
+              <span class="tab__label">SEO &amp; Content Engine</span>
+              <span class="tab__arrow" aria-hidden="true">→</span>
+            </button>
+            <button class="tab" role="tab" aria-selected="false" data-tab="email">
+              <span class="tab__icon" aria-hidden="true">◈</span>
+              <span class="tab__label">Lifecycle &amp; Email</span>
+              <span class="tab__arrow" aria-hidden="true">→</span>
+            </button>
+            <button class="tab" role="tab" aria-selected="false" data-tab="cro">
+              <span class="tab__icon" aria-hidden="true">◉</span>
+              <span class="tab__label">Landing Page CRO</span>
+              <span class="tab__arrow" aria-hidden="true">→</span>
+            </button>
+            <button class="tab" role="tab" aria-selected="false" data-tab="analytics">
+              <span class="tab__icon" aria-hidden="true">◎</span>
+              <span class="tab__label">Analytics &amp; Attribution</span>
+              <span class="tab__arrow" aria-hidden="true">→</span>
+            </button>
+            <button class="tab" role="tab" aria-selected="false" data-tab="cmo">
+              <span class="tab__icon" aria-hidden="true">◐</span>
+              <span class="tab__label">Fractional CMO</span>
+              <span class="tab__arrow" aria-hidden="true">→</span>
+            </button>
+          </div>
+
+          <div class="tabs__panels">
+            <div class="tab-panel is-active" role="tabpanel" data-panel="paid">
+              <p class="tab__kicker">AI PAID MEDIA</p>
+              <h3>Ads that teach themselves to convert.</h3>
+              <p>Self-optimizing campaigns across Google, Meta, LinkedIn, and TikTok — with creative variations generated, tested, and scaled on autopilot.</p>
+              <ul>
+                <li>AI-generated ad creative &amp; copy variations</li>
+                <li>Automated bid &amp; budget management</li>
+                <li>Audience discovery and lookalike expansion</li>
+                <li>Daily performance optimization</li>
+              </ul>
+            </div>
+            <div class="tab-panel" role="tabpanel" data-panel="seo">
+              <p class="tab__kicker">SEO &amp; CONTENT ENGINE</p>
+              <h3>Rank faster. Write less.</h3>
+              <p>Topic research, briefs, drafts, and internal linking handled by AI and reviewed by senior editors. Content quality stays high, volume goes up 10×.</p>
+              <ul>
+                <li>Automated keyword &amp; intent research</li>
+                <li>AI-drafted briefs and long-form content</li>
+                <li>Technical SEO audits &amp; fixes</li>
+                <li>Internal link graph optimization</li>
+              </ul>
+            </div>
+            <div class="tab-panel" role="tabpanel" data-panel="email">
+              <p class="tab__kicker">LIFECYCLE &amp; EMAIL</p>
+              <h3>Turn leads into lifelong customers.</h3>
+              <p>Segmented flows, behavior-based triggers, and AI-personalized sends that nurture every contact from first click to repeat purchase.</p>
+              <ul>
+                <li>Behavior-based welcome &amp; nurture flows</li>
+                <li>AI-personalized subject lines &amp; content</li>
+                <li>Win-back and re-engagement automation</li>
+                <li>Deliverability monitoring</li>
+              </ul>
+            </div>
+            <div class="tab-panel" role="tabpanel" data-panel="cro">
+              <p class="tab__kicker">LANDING PAGE CRO</p>
+              <h3>More clicks that actually convert.</h3>
+              <p>High-intent landing pages built, tested, and iterated with AI copy, design, and layout experimentation. Typical clients see 40–80% lifts.</p>
+              <ul>
+                <li>AI-generated copy &amp; design variants</li>
+                <li>Continuous A/B &amp; multivariate testing</li>
+                <li>Heatmap &amp; scroll-depth analysis</li>
+                <li>Speed and Core Web Vitals optimization</li>
+              </ul>
+            </div>
+            <div class="tab-panel" role="tabpanel" data-panel="analytics">
+              <p class="tab__kicker">ANALYTICS &amp; ATTRIBUTION</p>
+              <h3>One dashboard. Clear signal.</h3>
+              <p>Know which channels drive real pipeline and which are just spending your budget. Server-side tracking and AI-assisted attribution modeling.</p>
+              <ul>
+                <li>Unified revenue &amp; channel dashboards</li>
+                <li>Server-side &amp; first-party tracking</li>
+                <li>Multi-touch attribution modeling</li>
+                <li>Weekly insights, monthly strategy reviews</li>
+              </ul>
+            </div>
+            <div class="tab-panel" role="tabpanel" data-panel="cmo">
+              <p class="tab__kicker">FRACTIONAL CMO</p>
+              <h3>A senior leader in your corner.</h3>
+              <p>A strategist who owns your growth roadmap, runs the agency, and makes sure AI actually ships. Board-ready reporting, hands-on execution.</p>
+              <ul>
+                <li>Quarterly growth strategy &amp; roadmap</li>
+                <li>Channel mix &amp; budget allocation</li>
+                <li>Vendor &amp; team management</li>
+                <li>Monthly exec &amp; investor reporting</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="stats">
+    <section class="stats reveal">
       <div class="container stats__grid">
-        <div><span class="stat__num">3.4×</span><span class="stat__label">Average ROAS lift</span></div>
-        <div><span class="stat__num">90d</span><span class="stat__label">From kickoff to results</span></div>
-        <div><span class="stat__num">60%</span><span class="stat__label">Lower cost per lead</span></div>
+        <div><span class="stat__num" data-count="3.4" data-suffix="×">0×</span><span class="stat__label">Average ROAS lift</span></div>
+        <div><span class="stat__num" data-count="90" data-suffix="d">0d</span><span class="stat__label">From kickoff to results</span></div>
+        <div><span class="stat__num" data-count="60" data-suffix="%">0%</span><span class="stat__label">Lower cost per lead</span></div>
         <div><span class="stat__num">24/7</span><span class="stat__label">AI optimization</span></div>
       </div>
     </section>
 
-    <section class="process" id="about">
+    <!-- ================= GROWTH CALCULATOR ================= -->
+    <section class="calc reveal" id="calculator">
+      <div class="container">
+        <div class="calc__header">
+          <p class="eyebrow eyebrow--light">Interactive Growth Calculator</p>
+          <h2>See what AI growth could mean for your business.</h2>
+          <p class="section-lede">Move the sliders. We'll estimate your monthly revenue today vs. with Signal &amp; Scale — then send you a personalized roadmap.</p>
+        </div>
+
+        <div class="calc__grid">
+          <div class="calc__inputs">
+            <div class="slider">
+              <div class="slider__row">
+                <label for="visitors">Monthly website visitors</label>
+                <output id="visitors-val" for="visitors">5,000</output>
+              </div>
+              <input type="range" id="visitors" min="500" max="100000" step="500" value="5000" />
+              <div class="slider__ticks"><span>500</span><span>100k</span></div>
+            </div>
+
+            <div class="slider">
+              <div class="slider__row">
+                <label for="conv">Current conversion rate</label>
+                <output id="conv-val" for="conv">2.0%</output>
+              </div>
+              <input type="range" id="conv" min="0.5" max="10" step="0.1" value="2.0" />
+              <div class="slider__ticks"><span>0.5%</span><span>10%</span></div>
+            </div>
+
+            <div class="slider">
+              <div class="slider__row">
+                <label for="value">Avg. customer value</label>
+                <output id="value-val" for="value">$250</output>
+              </div>
+              <input type="range" id="value" min="50" max="5000" step="10" value="250" />
+              <div class="slider__ticks"><span>$50</span><span>$5,000</span></div>
+            </div>
+
+            <div class="slider">
+              <div class="slider__row">
+                <label for="industry">Your industry</label>
+                <output id="industry-val" for="industry">E-commerce</output>
+              </div>
+              <select id="industry" class="select">
+                <option value="ecom">E-commerce</option>
+                <option value="saas">B2B SaaS</option>
+                <option value="local">Local services</option>
+                <option value="agency">Agency / Consulting</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="calc__results">
+            <div class="result">
+              <p class="result__kicker">Today</p>
+              <p class="result__num" id="rev-now">$25,000</p>
+              <p class="result__sub">Estimated monthly revenue</p>
+            </div>
+            <div class="result result--accent">
+              <p class="result__kicker">With Signal &amp; Scale</p>
+              <p class="result__num" id="rev-new">$56,000</p>
+              <p class="result__sub">Projected monthly revenue</p>
+              <div class="result__bar" aria-hidden="true"><div class="result__bar-fill" id="rev-bar"></div></div>
+            </div>
+            <div class="result result--annual">
+              <p class="result__kicker">Annual upside</p>
+              <p class="result__num" id="rev-annual">+$372,000</p>
+              <p class="result__sub">Extra revenue per year</p>
+            </div>
+
+            <form class="calc__form" id="calc-form" onsubmit="return handleCalcLead(event)">
+              <label class="sr-only" for="calc-email">Work email</label>
+              <input id="calc-email" name="email" type="email" required placeholder="Enter email for your personalized roadmap" autocomplete="email" />
+              <button class="btn btn--cta" type="submit">Get My Report <span aria-hidden="true">→</span></button>
+            </form>
+            <p class="calc__note" id="calc-note" role="status"></p>
+
+            <div class="calc__unlocked" id="calc-unlocked" hidden>
+              <p class="eyebrow eyebrow--light">Your personalized playbook</p>
+              <ul>
+                <li><strong>Traffic lift:</strong> +40% from AI SEO &amp; paid media within 90 days.</li>
+                <li><strong>Conversion lift:</strong> +60% from CRO experiments and lifecycle flows.</li>
+                <li><strong>Biggest leverage point:</strong> <span id="lever">—</span></li>
+                <li><strong>Suggested 90-day focus:</strong> <span id="focus">—</span></li>
+              </ul>
+              <a class="btn btn--cta" href="#contact">Book My Free Audit →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="process reveal" id="about">
       <div class="container process__inner">
         <div>
           <p class="eyebrow eyebrow--light">How it works</p>
@@ -171,7 +335,7 @@
       </div>
     </section>
 
-    <section class="work" id="work">
+    <section class="work reveal" id="work">
       <div class="container">
         <p class="eyebrow eyebrow--light">Selected Work</p>
         <h2>Brands growing with Signal &amp; Scale.</h2>
@@ -195,7 +359,104 @@
       </div>
     </section>
 
-    <section class="cta" id="contact">
+    <!-- ================= TESTIMONIALS SLIDER ================= -->
+    <section class="testimonials reveal" aria-label="Client testimonials">
+      <div class="container">
+        <p class="eyebrow eyebrow--light">What clients say</p>
+        <h2>Real results. Real voices.</h2>
+
+        <div class="slider-wrap">
+          <button class="slider-btn slider-btn--prev" aria-label="Previous testimonial">‹</button>
+          <div class="slider-viewport">
+            <ul class="slider-track" id="testi-track">
+              <li class="testi">
+                <p class="testi__quote">"We 3× pipeline in one quarter. Signal &amp; Scale is the first agency that actually shipped on their promise."</p>
+                <div class="testi__who">
+                  <div class="testi__avatar" style="--c:#7b5cff">MR</div>
+                  <div>
+                    <p class="testi__name">Maya Rodríguez</p>
+                    <p class="testi__role">CEO, Northwind Commerce</p>
+                  </div>
+                </div>
+              </li>
+              <li class="testi">
+                <p class="testi__quote">"Their AI ads engine cut our cost per lead by 62%. I didn't know a campaign could self-improve like this."</p>
+                <div class="testi__who">
+                  <div class="testi__avatar" style="--c:#9b8cf5">JT</div>
+                  <div>
+                    <p class="testi__name">James Tan</p>
+                    <p class="testi__role">Head of Growth, Fabric SaaS</p>
+                  </div>
+                </div>
+              </li>
+              <li class="testi">
+                <p class="testi__quote">"Booked out for three months straight. The landing pages they built convert at almost 4× the old site."</p>
+                <div class="testi__who">
+                  <div class="testi__avatar" style="--c:#6b5be0">PK</div>
+                  <div>
+                    <p class="testi__name">Priya Kapoor</p>
+                    <p class="testi__role">Founder, Sundial Wellness</p>
+                  </div>
+                </div>
+              </li>
+              <li class="testi">
+                <p class="testi__quote">"Finally an agency that speaks the language of SMBs. Fast, transparent, and genuinely invested."</p>
+                <div class="testi__who">
+                  <div class="testi__avatar" style="--c:#1e0a8c">DL</div>
+                  <div>
+                    <p class="testi__name">Daniel Lamont</p>
+                    <p class="testi__role">Owner, Lamont &amp; Co.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button class="slider-btn slider-btn--next" aria-label="Next testimonial">›</button>
+
+          <div class="slider-dots" id="testi-dots" role="tablist" aria-label="Testimonial pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ACCORDION ================= -->
+    <section class="faq reveal" id="faq">
+      <div class="container faq__inner">
+        <div>
+          <p class="eyebrow eyebrow--light">Questions, answered</p>
+          <h2>Everything you wanted to know.</h2>
+          <p class="section-lede">Still curious? Book a 30-minute call and we'll answer anything specific to your business.</p>
+        </div>
+
+        <div class="accordion">
+          <details class="acc">
+            <summary>How is Signal &amp; Scale different from a regular agency?</summary>
+            <p>We run AI at every layer — creative, targeting, content, CRO — and pair it with senior strategists. You get the speed and scale of software with the judgment of a real marketing team.</p>
+          </details>
+          <details class="acc">
+            <summary>How soon will I see results?</summary>
+            <p>Most clients see meaningful movement in the first 30 days (new creative, CRO wins, new traffic sources), and compounding results by day 90. We set clear KPIs upfront so you can judge progress honestly.</p>
+          </details>
+          <details class="acc">
+            <summary>Do you work with small businesses or just SMEs?</summary>
+            <p>Both. Our engagements start from $2.5k/mo for local businesses and scale up to full fractional-CMO retainers for multi-channel SMBs.</p>
+          </details>
+          <details class="acc">
+            <summary>What industries do you work with?</summary>
+            <p>E-commerce, B2B SaaS, local services, agencies, and professional services are our sweet spots. We stay away from categories we can't move the needle for.</p>
+          </details>
+          <details class="acc">
+            <summary>What does the free audit include?</summary>
+            <p>A 30-minute call plus a written report covering your funnel, ads, SEO, analytics, and the three biggest AI opportunities specific to your business — yours to keep whether you hire us or not.</p>
+          </details>
+          <details class="acc">
+            <summary>Can I just hire you for one channel?</summary>
+            <p>Absolutely. Most clients start with one service (usually paid media or SEO) and expand as we prove out results.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta reveal" id="contact">
       <div class="container cta__inner">
         <h2>Ready to turn signal into scale?</h2>
         <p>Book a free 30-minute growth audit. We'll show you the three biggest AI opportunities in your marketing — whether you work with us or not.</p>
@@ -232,7 +493,7 @@
         </div>
         <div>
           <h4>Company</h4>
-          <ul><li><a href="#about">About</a></li><li><a href="#work">Work</a></li><li><a href="#contact">Contact</a></li></ul>
+          <ul><li><a href="#about">About</a></li><li><a href="#work">Work</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact">Contact</a></li></ul>
         </div>
         <div>
           <h4>Contact</h4>
